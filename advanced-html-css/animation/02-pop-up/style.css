@@ -61,3 +61,22 @@ button {
 .backdrop.show {
   opacity: 30%;
 }
+.popup-modal.show{
+animation-duration: 250ms;
+animation-name: animate;
+animation-iteration-count: 1;
+animation-direction: alternate;
+
+}
+@keyframes animate{
+  from{
+    opacity: 0%;
+    top: 20%;
+    left: 50%;
+  }
+  to{
+    opacity: 20%;
+    top: 50%;
+    left: 50%;
+  }
+}
